@@ -1,0 +1,65 @@
+{
+    "name": "studio451/yiistudio",
+    "description": "Yii Studio CMS based on php framework Yii2 and EasyiiCMS (shop, blog and any other your project)",
+    "keywords": ["yii2", "cms", "shop"],
+    "homepage": "https://yiistudio.ru",
+    "type": "project",
+    "license": "GNU GPL License",
+    "support": {
+        "wiki": "https://github.com/studio451/yiistudio/wiki",
+        "source": "https://github.com/studio451/yiistudio"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.0",
+        "yiisoft/yii2": "^2.0.6",
+        "yiisoft/yii2-bootstrap": "^2.0.0",
+        "yiisoft/yii2-swiftmailer": "^2.0.0",
+        "yiisoft/yii2-sphinx": "^2.0.0",
+        "yiisoft/yii2-httpclient": "^2.0.3",
+        "2amigos/yii2-selectize-widget": "^1.0",
+        "nnnick/chartjs": "^2.4.0",
+        "kartik-v/yii2-krajee-base": "^1.8.7",
+        "kartik-v/yii2-date-range": "^1.6.7",
+        "kartik-v/yii2-grid": "^3.1.3",
+        "kartik-v/yii2-widget-depdrop": "^1.0.4",
+        "kartik-v/yii2-editable": "^1.7.4",
+        "kartik-v/yii2-sortable": "^1.2.0",
+        "kartik-v/yii2-sortable-input": "^1.1.0",
+        "kartik-v/yii2-widget-timepicker": "^1.0.1",
+        "fortawesome/font-awesome": "^4.7.0",
+        "creocoder/yii2-nested-sets": "^0.9.0",
+        "phpoffice/phpexcel": "^1.8.1",
+        "cwspear/bootstrap-hover-dropdown": "^2.2.1",
+        "paulzi/yii2-adjacency-list": "^2.0", 
+        "bower-asset/slick-carousel": "^1.6.0",
+        "bower-asset/animate.css": "^3.5.1",
+        "bower-asset/jquery-animateNumber": "^0.0.14",
+        "bower-asset/fullcalendar": "^3.1",
+        "bower-asset/jquery.splitter": "^0.14",
+        "bower-asset/spritely": "^0.6.8",
+        "bower-asset/moment": "^2.0",
+        "bower-asset/bootstrap-datepicker": "^1.0",
+        "bower-asset/eonasdan-bootstrap-datetimepicker": "^4.17.0",
+        "bower-asset/scrollup": "^2.4.1"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "^2.0.0",
+        "yiisoft/yii2-gii": "^2.0.0",
+        "yiisoft/yii2-faker": "^2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "^0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": "php init --env=Development --overwrite=n"
+    }
+}
